@@ -1,0 +1,84 @@
+body {
+    background-image: url('pokeball.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family:"Pokemon-Solid";
+    src: url("Pokemon Solid.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Pokemon-GB";
+    src: url("Pokemon GB.ttf") format("truetype");
+}
+
+
+.stuff {
+    color: black;
+    font-family: 'Pokemon-GB';
+    font-size: smaller;
+    right: 50%;
+    bottom: 60%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+.prev {
+    text-decoration: none;
+    font-family: 'Pokemon-Solid';
+    font-size: x-large;
+    color: black;
+}
+  
+.next {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Pokemon-Solid';
+    color: black;
+}
+
+h1 {
+    font-family: 'Pokemon-Solid';
+    font-size: xx-large;
+}
+
+form {
+    font-family: 'Pokemon-Solid';
+    font-size: large;
+}
+
+select {
+    font-family: 'Pokemon-GB';
+    font-size: smaller;
+}
+option {
+    font-family: 'Pokemon-GB';
+    font-size: smaller;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+input[type=text] {
+    font-family: 'Pokemon-GB';
+    background-color: #f1f1f1;
+    width: 40%;
+}
+
+input[type=submit] {
+    font-family: 'Pokemon-GB';
+    background-color: white;
+    color: black;
+}
+
+.pokemonBG {
+    background-color: white;
+    border: 5px solid black;
+    padding: 30px;
+}
